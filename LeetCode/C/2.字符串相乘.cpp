@@ -18,7 +18,7 @@ num1 和 num2 均不以零开头，除非是数字 0 本身。
 class Solution {
 public:
     string multiply(string num1, string num2) {
-       int l = num1.length();
+        int l = num1.length();
         int r = num2.length();
         vector<int> num(l+r,0);
         for(int i=0;i<l;i++)
